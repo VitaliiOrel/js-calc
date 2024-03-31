@@ -1,0 +1,41 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<main>
+    <div class="calculator">
+        <div class="display" id="output">0</div>
+        <div class="buttons buttons--big">
+            <button onclick="calc.click7()">7</button>
+            <button onclick="calc.click8()">8</button>
+            <button onclick="calc.click9()">9</button>
+            <button onclick="calc.click4()">4</button>
+            <button onclick="calc.click5()">5</button>
+            <button onclick="calc.click6()">6</button>
+            <button onclick="calc.click1()">1</button>
+            <button onclick="calc.click2()">2</button>
+            <button onclick="calc.click3()">3</button>
+            <button onclick="calc.click0()">0</button>
+            <button onclick="calc.clickdot()">.</button>
+            <button onclick="calc.clickdel()">del</button>
+        </div>
+        <div class="buttons buttons--small">
+            <button onclick="calc.clickPlus()">+</button>
+            <button onclick="calc.clickMinus()">-</button>
+            <button onclick="calc.clickMult()">*</button>
+            <button onclick="calc.clickDivide()">/</button>
+        </div>
+        <div class="buttons buttons--small">
+            <button onclick="calc.clickEquals()">=</button>
+            <button onclick="calc.clickC()">C</button>
+        </div>
+    </div>
+</main>
+
+{{!
+Цей код містить лише те, що буде виводитись в
+
+<body>
+    Адже наш layout/default.hbs має вже структуру HTML
+    }}
